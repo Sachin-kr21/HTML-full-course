@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form building</title>
+    <!--link rel="stylesheet" href="form_building.css"-->
+</head>
+<body background="C:\Users\sachi\OneDrive\Desktop\web devop\batman.png">
+    <div class="fo">
+        <form>
+        
+            <h1 class='heade'align="center">Resume builder </h1>
+            <h2>Personal</h2>
+            <p>Name: <input type="text" name="name"> </p>
+            <p>Personal number: <input type="number" name="phno"></p>
+            <p>Personal mail: <input type="email" name="email"></p>
+            <p>DOB: <input type="date" name="dob"></p>
+            <p>
+                <legend>Gender</legend>
+                <fieldset>
+                    Male<input type="radio" name="gender">
+                    Female<input type="radio" name="gender">
+                    Other<input type="radio" name="gender"> 
+                </fieldset>
+            <p>Address:<br>
+                <textarea rows="5" cols="60" ></textarea>
+            </p>   
+            </p>
+            <hr>
+            <h2>Education</h2>
+            <p>Study stage:&nbsp&nbsp&nbsp&nbsp&nbsp
+            <select>
+                <option value="blank">--select--</option>
+                <option value="Undergraduate">Undergraduate</option>
+                <option value="Postgraduate">Postgraduate</option>
+                <option value="Phd">Phd</option>
+            </select>
+            </p>
+            <p>Work exprience:&nbsp&nbsp&nbsp&nbsp&nbsp
+                <select>
+                    <option >--select--</option>
+                    <option value=" 0-2 ">0-2</option>
+                    <option value=" 2-5 ">2-5</option>
+                    <option value=" 5-9 ">5-9</option>
+                    <option value=" 10+ ">10+</option>
+                </select>
+            </p>
+            <p>professional number:<input type="number" name="number"><br></p>
+            <p>professional email:<input type="email" name="email"></p>
+            <p>Linkedin profile:<input type="url" name="linkedin"></p>
+            <p>Career objective:<br>
+                <textarea rows="5" cols="60" ></textarea>
+            </p>
+            <p>Computer languages known:<br>
+                Python<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                Java<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                C<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                C++<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                Ruby<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                R programming<input type="checkbox">
+            </p>
+            <p>
+            <fieldset>
+                <legend>Frontend languages known:</legend>
+                HTML<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                CSS<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                Java script<input type="checkbox">
+            </fieldset>  
+            </p>
+            <p>
+                <fieldset>
+                    <legend>
+                        Backend languages known:
+                    </legend>
+                NodeJS<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                Database<input type="checkbox">&nbsp&nbsp&nbsp&nbsp&nbsp
+                </fieldset>
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Languages known:</legend>
+                    English<input type="checkbox" name="English">&nbsp&nbsp&nbsp&nbsp&nbsp
+                    Hindi<input type="checkbox" name="Hindi">&nbsp&nbsp&nbsp&nbsp&nbsp
+                    Telugu<input type="checkbox" name="Telugu">
+                </fieldset>
+            </p>
+            <p>
+                Candidate photo:&nbsp&nbsp&nbsp&nbsp&nbsp<input type="image"><br>
+                Signature photo:&nbsp&nbsp&nbsp&nbsp&nbsp<input type="image">
+            </p>
+            <fieldset>
+                <legend>
+                    Create Passoword
+                </legend>
+                <p>
+                    New password:<input type="password" name="password" >
+                    Confirm password:<input type="password" name="password" >
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" name="submit">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <input type="reset" name="reset">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
